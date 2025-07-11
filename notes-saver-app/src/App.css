@@ -1,0 +1,7 @@
+.white-placeholder::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+.custom-text {
+  color: white;
+}

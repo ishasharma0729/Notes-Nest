@@ -1,0 +1,61 @@
+
+
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #3b3b3b;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+textarea, input {
+  background-color: #2c2c2c;
+  border: 1px solid #323232;
+  color: white;
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+textarea {
+  min-height: 220px; /* Bigger textarea */
+  resize: vertical;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+.note {
+  background-color: #2a2a2a;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #66b0ff;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e20; /* Dark background */
+  color: white;
+}
+
+/* Optional: style placeholder to be white */
+::placeholder {
+  color: white;
+  opacity: 0.7;
+}
