@@ -1,1 +1,1 @@
-# Implemented Create, View, Edit, and Delete (CRUD) functionalities for notes management, with automatic syncing to Firestore and provided Firebase Authentication with Email/Password for secure access.
+ Implemented Create, View, Edit, and Delete (CRUD) functionalities for notes management, with automatic syncing to Firestore and provided Firebase Authentication with Email/Password for secure access.Added AI summarization feature using Cohere API to generate short, meaningful summaries of each note
